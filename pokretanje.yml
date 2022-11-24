@@ -1,6 +1,6 @@
 ---
  - name: Pokretanje
-   hosts: localhostja
+   hosts: vezba19
    tasks: 
    
     - name: Neke informacije
