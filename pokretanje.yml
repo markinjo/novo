@@ -1,0 +1,8 @@
+---
+ - name: Pokretanje
+   hosts: localhost
+   tasks: 
+   
+    - name: Neke informacije
+      debug:
+        msg: "Ip adresa masine {{ansible_fqdn}} je {{ansible_default_ipv4.address}}"
