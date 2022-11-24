@@ -1,6 +1,6 @@
 ---
  - name: Pokretanje
-   hosts: localhost
+   hosts: localhostja
    tasks: 
    
     - name: Neke informacije
